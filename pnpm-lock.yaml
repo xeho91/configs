@@ -147,19 +147,19 @@ importers:
     specifiers:
       '@adchitects/tsup-config': workspace:*
       '@adchitects/typescript-config': workspace:*
-      '@prettier/plugin-php': 0.19.2
+      '@prettier/plugin-php': 0.19.4
       '@types/node': 18.11.9
-      '@types/prettier': 2.7.1
+      '@types/prettier': 2.7.2
       '@workspace/shared': workspace:*
       tsup: 6.5.0
       typescript: 4.9.3
     dependencies:
-      '@prettier/plugin-php': 0.19.2
+      '@prettier/plugin-php': 0.19.4
     devDependencies:
       '@adchitects/tsup-config': link:../tsup
       '@adchitects/typescript-config': link:../typescript
       '@types/node': 18.11.9
-      '@types/prettier': 2.7.1
+      '@types/prettier': 2.7.2
       '@workspace/shared': link:../../shared
       tsup: 6.5.0_typescript@4.9.3
       typescript: 4.9.3
@@ -779,14 +779,14 @@ packages:
       tslib: 2.4.0
     dev: false
 
-  /@prettier/plugin-php/0.19.2:
-    resolution: {integrity: sha512-j4Io//Js9ajKP7vgjKpS0rS8B/HKIJxutUshlbCpXvsP8Cz28MYp2VFJytpS9zyLEfsMPXordNWjkBVvHRL7ow==}
+  /@prettier/plugin-php/0.19.4:
+    resolution: {integrity: sha512-FiSnSfP+Vo0/HVRXg7ZnEYJEM1eWS+MmsozYtzEdIf8Vg9v/+fwvyXMNayI5SgZ1Y9F5LGhl/EOMWIPzr9c2Xg==}
     peerDependencies:
       prettier: ^1.15.0 || ^2.0.0
     dependencies:
       linguist-languages: 7.21.0
       mem: 8.1.1
-      php-parser: 3.1.2
+      php-parser: 3.1.4
     dev: false
 
   /@rushstack/eslint-patch/1.2.0:
@@ -886,8 +886,8 @@ packages:
   /@types/parse-json/4.0.0:
     resolution: {integrity: sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==}
 
-  /@types/prettier/2.7.1:
-    resolution: {integrity: sha512-ri0UmynRRvZiiUJdiz38MmIblKK+oH30MztdBVR95dv/Ubw6neWSb8u1XpRb72L4qsZOhz+L+z9JD40SJmfWow==}
+  /@types/prettier/2.7.2:
+    resolution: {integrity: sha512-KufADq8uQqo1pYKVIYzfKbJfBAc0sOeXqGbFaSpv8MRmC/zXgowNZmFcbngndGk922QDmOASEXUZCaY48gs4cg==}
     dev: true
 
   /@types/responselike/1.0.0:
@@ -5219,8 +5219,8 @@ packages:
       yargs: 17.6.0
     dev: false
 
-  /php-parser/3.1.2:
-    resolution: {integrity: sha512-RRCMK/bCKYPLRhlpfMlVVVsaIesuW+X6UxRqWjm7dTAmTZk8PvD6hCmG/RVeDzse7iqYWJwLJeqEbaGLC+aHeQ==}
+  /php-parser/3.1.4:
+    resolution: {integrity: sha512-WUEfH4FWsVItqgOknM67msDdcUAfgPJsHhPNl6EPXzWtX+PfdY282m4i8YIJ9ALUEhf+qGDajdmW+VYqSd7Deg==}
     dev: false
 
   /picocolors/1.0.0:
